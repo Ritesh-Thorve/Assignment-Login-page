@@ -1,7 +1,6 @@
 import { AuthProvider } from './context/AuthContext';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Register from './pages/Register';
-import Login from './pages/Login';
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
+import Auth from './pages/Auth';
 import './App.css'
 
 function App() { 
@@ -10,14 +9,9 @@ function App() {
     <>
     <Router>
       <AuthProvider>
-      <nav>
-        <Link to="/register">Register</Link>
-        <Link to="/login">Login</Link>
-      </nav>
         
       <Routes>
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
+      <Route path="/auth" element={<Auth />} />
       </Routes>
 
       </AuthProvider>
