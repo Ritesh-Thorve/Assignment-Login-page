@@ -34,7 +34,7 @@ This is the backend of the Full-Stack Intern Assignment project, built using **N
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/Ritesh-Thorve/Assignment-Login-page.git
+git clone https://github.com/Ritesh-Thorve/Fullstack-internship-assignment.git
 cd fullstack-intern-assignment/backend
 ```
 
@@ -121,7 +121,4 @@ npm test
 - This backend does **not** include deployment instructions as per assignment requirements.
 - The frontend consumes these API endpoints to register and authenticate users.
 
-## Author
-- Name: Ritesh Thorve
-- GitHub: https://github.com/Ritesh-Thorve
  
