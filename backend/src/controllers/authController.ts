@@ -36,8 +36,6 @@ export const register = async (req: Request, res: Response): Promise<void> => {
   }
 };
 
-
-
 // Login User
 export const login = async (req: Request, res: Response): Promise<void> => {
   try {

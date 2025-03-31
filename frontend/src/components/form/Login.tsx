@@ -46,7 +46,6 @@ const LoginForm = () => {
     <form onSubmit={handleSubmit(onSubmit)} className="login-form">
       <h3>Welcome back!</h3>
 
-      {/* Input Container */}
       <div className="input-container">
         <Input placeholder="UID"  type="email" required {...register("email")} />
         <Input placeholder="Password" type="password" required {...register("password")} />

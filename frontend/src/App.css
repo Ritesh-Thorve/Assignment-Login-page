@@ -1,6 +1,8 @@
 *{
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+/* input */
 .input-container {
   gap: 24px;
   display: flex;
@@ -64,7 +66,7 @@ button.hover:not(:disabled) {
 }
 
 
-/* login */
+/* login form */
 .login-form {
   display: flex;
   flex-direction: column;
